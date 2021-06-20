@@ -32,5 +32,5 @@ jobs:
         run: npm install -g surge
         
       - name: run surge
-        run: surge ./ test_surge.surge.sh --tokken ${{secret.a1}}
+        run: surge ./ test_surge.surge.sh --tokken ${{secrets.a1}}
 
